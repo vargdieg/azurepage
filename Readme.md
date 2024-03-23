@@ -45,7 +45,21 @@ For the details since the project is in github we are going to select Github and
 
 ![webStaticApp][image-web-static-app2]
 
+After the session is initialized you have to input the repo organization - name of the repository and the branch
 
+For the details select the preset of the application you are building (this case is an html file)
+For the location of the app, select the folder in wich the source files are located
+For output folder, select the output folder after the build process
+
+![webStaticApp][image-web-static-details]
+
+After the resource is created you can visit the static web app menu and select the recent created app
+
+![webStaticApp][image-web-static-menu]
+
+Select the web application, in there it should have the URL of the static web page you have in the repo
+
+![webStaticApp][image-web-static-result]
 
 For more information about creating an static web app using azure checkout the [build your first static web app][4]
 
@@ -60,3 +74,6 @@ For more information about creating an static web app using azure checkout the [
 [create-resource-group]:./images/CreatingAzureResourceGroup.png
 [image-web-static-app1]:./images/AzureStaticWebApp1.png
 [image-web-static-app2]:./images/AzureStaticWebApp2.png
+[image-web-static-details]:./images/AzureStaticWebAppDetails.png
+[image-web-static-menu]:./images/AzureStaticWebAppMenu.png
+[image-web-static-result]:./images/AzureStaticWebAppResult.png
